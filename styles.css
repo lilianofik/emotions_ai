@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    /* background-image: linear-gradient(45deg,red, blue); */
+    background-color: blue;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+    animation: gradient 5s ease-in infinite alternate;
+  }
+
+  @keyframes gradient{
+    100%{
+      background-color: red;
+    }
+  }
+
+  #welcomeMsg{
+    color: white;
+    font-size: 300%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0;
+    margin-top: 2%;
+    margin-left: 2%;
+    text-align: center;
+  }
+
+  #face{
+    display: inline-block;
+    position: relative;
+    top: 30px;
+    left: 10%;
+  }
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0;
+}
+
+#current_emotion{
+  position: relative;
+  left: 20%;
+  max-width: 500px;
+  max-height: 500px;
+  /* background-image: linear-gradient(45deg,blue 30%, red);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed; */
+}
+/* 
+ #face {
+
+    width: 100pt;
+    height: 100pt;
+
+} 
+
+#wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } 
+
+   #imgBox {
+    height: 100%;
+  }
+
+  
+.img-avatar,
+.img-avatar-start {
+  opacity: 0; 
+  display: none;
+  position: absolute;
+  left: 20px;
+  transition: all 200ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+} 
+
+.avatar-blur {
+    animation: image_blur 3s ease 0s infinite;
+    -webkit-animation: image_blur 3s ease 0s infinite;
+    -moz-animation: image_blur 3s ease 0s infinite;
+  }
+
+  @keyframes image_blur {
+    0%,
+    90% {
+      -webkit-filter: blur(2px);
+      -moz-filter: blur(2px);
+      -o-filter: blur(2px);
+      -ms-filter: blur(2px);
+    }
+    50% {
+      -webkit-filter: blur(15px);
+      -moz-filter: blur(15px);
+      -o-filter: blur(15px);
+      -ms-filter: blur(15px);
+    }
+  } */
